@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald'. sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #42f590;
+}
+.home-image img {
+  width: 30%;
+  display: block;
+}
+.About {
+  width: 30%;
+  margin-right: 70px;
+  float: right;
+  margin-left: 6px;
+}
+.care-image img {
+  width: 30%;
+  display: block;
+}
+.page h1 {
+  font-size: 60px;
+  text-align: fixed;
+}
+.betta-image img {
+  width: 100%;
+}
+.page {
+  /* display: flex; */
+  text-align: left;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+  background-color: #42f590;
+  margin-bottom: 50px;
+}
+.footer {
+  clear: both;
+}
+.home-image img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 30px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+}
